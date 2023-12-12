@@ -1,3 +1,23 @@
-# Parallel Project --- HealthData Insights: Enhancing Healthcare through EHR Analysis with BigQuery and Spark
+# HPC-Healthcare
+CSCI6330 Parallel Processing group project. The project analyzes electronic health records using high performance computing technologies.
 
-Electronic health records (EHRs) are used widely in the whole world in nowadays, it provides a comprehensive view of a patient's basic information (age, gender) and medical history (family history, allergies, tests results…), then providing critical information for clinical judgment, research, and healthcare management. With the introduction of many cloud computing and big data technologies, there has been a significant progress in analyzing EHR data. This project will complete the usage of machine learning (ML) approaches in Google Cloud BigQuery and Apache Spark, two powerful high-performance computing (HPC) platforms on EHR data, to predict the likelihood that a patient will have a disease at a certain time in the future. Through leveraging the parallel processing, real-time analytics, and ML tools provided by HPC platforms, healthcare professionals and data scientists can discover existing hidden patterns, improve patient care and treatment, and promote medical research. This paper will explore various aspects of the features and benefits of these platforms and compare the predictive accuracy of ML models for EHR data.
+The primary objective of this research is to classify various health diagnoses based on correlations found in select features, using electronic health records(EHR) and high performance computing(HPC) technologies.
+
+---
+
+Technologies:
+- Google BigQuery
+- Apache Spark
+- Jupyter Notebook
+- Python
+- SQL
+  
+---
+
+Dataset: MIMIC III
+
+In order to gain access to the MIMIC datasets you must first complete an application process. After becoming approved, you then complete the required CITI training, then one final approval after submitting required training completion certificates. The process is straight forward and instructions are provided at the bottom of the [MIMIC Repository](https://physionet.org/content/mimiciv/2.2/).
+It would be beneficial to allocate around 5-7 days for this process. Cleaned data files will be held locally and cannot be publically accessable.
+
+---
+
